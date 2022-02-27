@@ -8,7 +8,7 @@ class CareTeamCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.all(10.0),
-        child:
+       child:
         SingleChildScrollView(
           child: Row(
             children: <Widget>[
@@ -16,7 +16,7 @@ class CareTeamCard extends StatelessWidget {
                 child: Container(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                   crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text('Care Team', style: kSectionTitleTextStyle
                       ),
@@ -24,12 +24,14 @@ class CareTeamCard extends StatelessWidget {
                       SizedBox(
                         height: 20.0,
                       ),
+                      //PLACEHOLDER FOR PROVIDER LIST
                       Text('Provider 1', style: kActiveTextChoiceStyle),
                       Text('Provider 2', style: kInactiveTextChoiceStyle),
                     ],
                   ),
                 ),
               ),
+              //CONTAINER FOR PROVIDER IMAGE AND CONTACT INFORMATION SUBTEXT
               Container(
                 padding: EdgeInsets.all(30.0),
                 alignment: Alignment.center,

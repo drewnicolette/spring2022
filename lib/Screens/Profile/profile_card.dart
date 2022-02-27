@@ -41,6 +41,7 @@ class ProfileCard extends StatelessWidget {
                   ),
                 ),
               ),
+              //CONTAINER FOR PROFILE IMAGE TO KEEP POSITION
               Container(
                 padding: EdgeInsets.all(30.0),
                 alignment: Alignment.centerRight,

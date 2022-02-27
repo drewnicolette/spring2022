@@ -22,12 +22,14 @@ class ContactCard extends StatelessWidget {
                       SizedBox(
                         height: 20.0,
                       ),
+                      //PLACEHOLDER FOR CONTACT LIST
                       Text('Contact 1', style: kActiveTextChoiceStyle),
                       Text('Contact 2', style: kInactiveTextChoiceStyle),
                     ],
                   ),
                 ),
               ),
+              //CONTAINER FOR IMAGE AND CONTACT SUBTEXT
               Container(
                 padding: EdgeInsets.all(30.0),
                 alignment: Alignment.center,
